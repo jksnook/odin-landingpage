@@ -6,7 +6,7 @@ body {
 
 .header {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   background-color: #1F2937;
   align-items: center;
   padding: 10px;
@@ -17,13 +17,42 @@ body {
   color: #F9FAF8;
   font-size: 24px;
   font-weight: 600;
+  margin-left: 200px;
+}
+
+.promo {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F2937;
+  align-items: center;
+  padding: 100px 10px;
+  margin: 0px;
+  gap: 50px;
+}
+
+.promo-text {
+  margin-left: 200px;
+}
+
+.promo-content {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+button {
+  background-color: #3882F6;
+  border: none;
+  padding: 8px;
+  font-size: 18px;
+  color: #E5E7EB;
+  border-radius: 8px;
 }
 
 ul {
   display: flex;
   list-style: none;
   padding: 0px;
-  margin: 0px;
+  margin: 0px 200px 0px 0px;
   gap: 10px;
 }
 
@@ -31,4 +60,18 @@ a {
   text-decoration: none;
   font-size: 18px;
   color: #E5E7EB;
+}
+
+img  {
+  height: 300px;
+  width: auto;
+  margin-right: 200px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+  color: #F9FAF8;
+  padding: 0px;
+  margin: 0px;
 }
