@@ -83,12 +83,27 @@ body {
   font-size: 24px;
 }
 
+.call-to-action {
+  display: flex;
+  margin: 100px 300px;
+  justify-content: space-between;
+  background-color: #3882F6;
+  color: #E5E7EB;
+  border-radius: 5px;
+  padding: 30px 100px;
+}
+
+.call-button {
+  border: 2px solid #F9FAF8;
+  align-self: center;
+}
+
 button {
   background-color: #3882F6;
   border: none;
   padding: 8px;
   font-size: 18px;
-  color: #E5E7EB;
+  color: #F9FAF8;
   border-radius: 8px;
 }
 
@@ -122,4 +137,9 @@ h1 {
 
 h2 {
   color: #1F2937;
+}
+
+h3 {
+  margin: 0px;
+  padding: 0px;
 }
